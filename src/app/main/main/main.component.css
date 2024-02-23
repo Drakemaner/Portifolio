@@ -4,41 +4,42 @@
 
 .intro {
   margin-left: 30px;
-}
-
-.span-sm {
-  color: gray;
+  display: flex;
+  flex-direction: column;
 }
 
 .infos {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
   margin-left: 30px;
   width: 75%;
 }
 
-.sobre-mim{
-  margin-bottom: 50px;
+.sobre-mim {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.sobre-mim p{
-  margin-bottom: 20px;
-}
-
-.sobre-mim span {
+.sm-span {
   font-size: 16px;
   line-height: 30px;
 }
 
-.experiencia p {
-  margin-bottom: 20px;
+.experiencia-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
-.experiencia span {
-  font-size: 16px;
-  line-height: 30px;
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .list-item {
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
 }

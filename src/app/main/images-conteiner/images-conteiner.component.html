@@ -1,0 +1,9 @@
+<section class="container">
+  <div class="card" *ngFor="let card of cards">
+    <a [routerLink]="card.link">
+      <img [src]="card.foto" alt="image" height="">
+      <p>{{card.nome}}</p>
+      <span>{{card.tipo}}</span>
+    </a>
+  </div>
+</section>

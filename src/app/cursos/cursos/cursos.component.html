@@ -1,0 +1,15 @@
+<section>
+  <div class="cursos-container">
+    <p class="big">Cursos</p>
+    <ul class="cursos-list">
+      <li class="card-cursos" *ngFor="let cursos of cursos[0].cursos">
+        <p class="nome-curso medium">{{cursos.nome}}</p>
+        <ul class="curso-list" >
+          <li class="curso-item" *ngFor="let curso of cursos.cursosArray">
+            <p class="sm">{{curso}}</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>

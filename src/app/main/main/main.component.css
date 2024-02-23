@@ -1,0 +1,52 @@
+.main-container{
+  padding-top: 200px;
+}
+
+.intro {
+  margin-left: 30px;
+}
+
+.span-sm {
+  color: gray;
+}
+
+.infos {
+  margin-left: 30px;
+  width: 75%;
+}
+
+.sobre-mim{
+  margin-bottom: 50px;
+}
+
+.sobre-mim p{
+  margin-bottom: 20px;
+}
+
+.sobre-mim span {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.experiencia p {
+  margin-bottom: 20px;
+}
+
+.experiencia span {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.list-item {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item p {
+  margin-bottom: 10px;
+}
+
+.list-item span {
+  font-size: 16px;
+}

@@ -1,0 +1,44 @@
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*display: grid;*/
+  gap: 50px;
+  margin-top: 100px;
+  /*grid-template-columns: repeat(auto-fit, minmax(min(80%, max(450px, 80% / 3)), 1fr));*/
+  margin-bottom: 125px;
+}
+
+.card{
+  transition: .4s;
+}
+
+.card:hover{
+  width: 500px;
+  height: 590px;
+  box-shadow: 10px 10px 100px black;
+  padding-top: 30px;
+}
+
+.card a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card p{
+  margin-bottom: 15px;
+  color: black;
+}
+
+.card img {
+  margin-bottom: 20px;
+  width: 450px;
+  height: 460px;
+}
+
+span {
+  color: gray;
+}

@@ -1,0 +1,20 @@
+<div class="skills">
+  <p class="medium">Habilidades</p>
+  <div>
+    <ul class="graphic-list" #graficoLista>
+      <li *ngFor="let skill of habilidadeArea">
+        <p class="curso">{{skill.nome}}</p>
+        <div class="graphic-container">
+          <div class="box">
+            <div class="graphic" [style]="skill.nivel" #grafico></div>
+          </div>
+          <ul class="niveis">
+            <li><span>Iniciante</span></li>
+            <li><span>Intermediário</span></li>
+            <li><span>Avançado</span></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

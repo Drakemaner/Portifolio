@@ -4,6 +4,7 @@ import { MainComponent } from './main/main.component';
 import { MainRoutingModule } from './main-routing.module';
 import { ImagesConteinerComponent } from './images-conteiner/images-conteiner.component';
 import { GraficoHabilidadesComponent } from './grafico-habilidades/grafico-habilidades.component';
+import {SharedModule} from "../shared/shared.module";
 
 
 
@@ -13,10 +14,11 @@ import { GraficoHabilidadesComponent } from './grafico-habilidades/grafico-habil
     ImagesConteinerComponent,
     GraficoHabilidadesComponent
   ],
-  imports: [
-    CommonModule,
-    MainRoutingModule
-  ],
+    imports: [
+        CommonModule,
+        MainRoutingModule,
+        SharedModule
+    ],
   exports: [
     MainComponent
   ]

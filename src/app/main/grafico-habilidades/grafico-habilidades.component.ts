@@ -39,6 +39,10 @@ export class GraficoHabilidadesComponent implements OnInit, AfterViewInit {
       nome: 'C#',
       nivel: 'width: 50%'
     },
+    {
+      nome: 'Linux',
+      nivel: 'width: 60%'
+    }
   ]
 
   @ViewChildren('grafico') graficos!: QueryList<ElementRef>;

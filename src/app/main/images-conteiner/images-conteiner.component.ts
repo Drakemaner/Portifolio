@@ -11,8 +11,14 @@ export class ImagesConteinerComponent implements OnInit {
     {
       nome: 'GitHub do Site',
       foto: '/assets/GitHub.png',
-      link: '#',
+      link: 'https://github.com/Drakemaner/Portifolio',
       tipo: 'Projeto'
+    },
+    {
+      nome: 'Cursos Alura',
+      foto: '/assets/alura.jpg',
+      link: '/cursos/alura',
+      tipo: 'Cursos'
     },
     {
       nome: 'Clone da Página PSN',
@@ -25,12 +31,6 @@ export class ImagesConteinerComponent implements OnInit {
       foto: '/assets/GitHub.png',
       link: 'https://github.com/Drakemaner/Blog_SantanderBootcamp_Angular',
       tipo: 'Projeto'
-    },
-    {
-      nome: 'Cursos Alura',
-      foto: '/assets/alura.jpg',
-      link: '/cursos/alura',
-      tipo: 'Cursos'
     },
     {
       nome: 'Santander Bootcamp',

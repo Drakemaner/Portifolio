@@ -21,12 +21,6 @@ export class ImagesConteinerComponent implements OnInit {
       tipo: 'Cursos'
     },
     {
-      nome: 'Clone da Página PSN',
-      foto: '/assets/GitHub.png',
-      link: 'https://github.com/Drakemaner/PSN-Page',
-      tipo: 'Projeto'
-    },
-    {
       nome: 'Blog Feito em Angular Santander Bootcamp',
       foto: '/assets/GitHub.png',
       link: 'https://github.com/Drakemaner/Blog_SantanderBootcamp_Angular',
@@ -37,6 +31,18 @@ export class ImagesConteinerComponent implements OnInit {
       foto: '/assets/Santander Bootcamp.png',
       link: '/cursos/santanderBootcamp',
       tipo: 'Cursos'
+    },
+    {
+      nome: 'Back-end do Clozet App (ASP.NET)',
+      foto: '/assets/GitHub.png',
+      link: 'https://github.com/Drakemaner/ClozetAPI',
+      tipo: 'Projeto'
+    },
+    {
+      nome: 'Clozet App (Angular/Ionic)',
+      foto: '/assets/GitHub.png',
+      link: 'https://github.com/Drakemaner/Clozet',
+      tipo: 'Projeto'
     }
   ]
 
